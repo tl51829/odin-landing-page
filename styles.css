@@ -1,0 +1,83 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+
+}
+
+.header, .section1, .footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo, .S1-heading {
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a, .S1-text, .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+
+}
+
+.section1 {
+
+}
+
+.S1-heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button, .S4-container {
+    background-color: #3882F6;
+}
+
+.section2 {
+    
+}
+
+.S2-heading {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+}
+
+.S3-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section4 {
+    
+}
+
+.S4-signup {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.footer {
+
+}
