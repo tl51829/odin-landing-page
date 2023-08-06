@@ -1,9 +1,14 @@
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .header {
-
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 15vw;
+    margin: 0;
 }
 
 .header, .section1, .footer {
@@ -12,6 +17,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
 }
 
 .logo, .S1-heading {
@@ -22,9 +28,11 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 16px;
 }
 
-a, .S1-text, .text {
+a, .S1-text, .text, .S1-img {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -33,12 +41,14 @@ a {
     text-decoration: none;
 }
 
-.content {
-
+.section1 {
+    display: flex;
+    padding: 5% 15vw 7%;
+    gap: 32px;
 }
 
-.section1 {
-
+.S1-container {
+    flex: 9;
 }
 
 .S1-heading {
@@ -46,12 +56,35 @@ a {
     font-weight: 900;
 }
 
+.S1-text {
+    margin-bottom: 8px;
+}
+
+.S1-img {
+    width: 500px;
+    height: 300px;
+    background-color: #787878;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 10;
+}
+
+button {
+    color: white;
+    padding: 8px 32px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
 button, .S4-container {
     background-color: #3882F6;
 }
 
 .section2 {
-    
+    text-align: center;
+    padding: 36px;
 }
 
 .S2-heading {
@@ -59,25 +92,70 @@ button, .S4-container {
     font-weight: 900;
 }
 
+.S2-container {
+    display: flex;
+    justify-content: center;
+}
+
+.S2-card {
+    margin: 48px 32px 56px;
+    width: 150px;
+}
+
+.S2-img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid rgb(56, 136, 255);
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
 .section3 {
     background-color: #E5E7EB;
+    padding: 7% 25.7%;
+    display: flex;
+    flex-direction: column;
 }
 
 .S3-quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.S3-quoter {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
 }
 
 .section4 {
-    
+    padding: 78px 17%;
+}
+
+.S4-container {
+    padding: 56px 128px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.S4-heading {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 4px;
 }
 
 .S4-signup {
-    border: 1px solid white;
-    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 8px;
 }
 
 .footer {
-
+    text-align: center;
+    padding: 32px;
 }
